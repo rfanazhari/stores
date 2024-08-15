@@ -1,0 +1,17 @@
+A. Di awal challenge, ada beberapa langkah yang akan saya lakukan:
+Memahami Dokumentasi Library: Saya akan teliti membaca dokumentasi lengkap dari 3rd celebration library yang akan diimplementasikan. Fokus utama akan pada cara penggunaan, integrasi dengan framework yang digunakan (misalnya NestJS), dan konfigurasi yang diperlukan.
+Mengkaji Repository dan Dokumentasi Project: Saya akan memeriksa repository assignment yang sudah ada untuk memahami arsitektur yang digunakan, pola-pola pengembangan yang telah diterapkan, dan bagaimana komponen-komponen yang ada saling berinteraksi.
+Berinteraksi dengan Tim: Saya akan berkomunikasi dengan Project Manager, Tech Lead, dan anggota tim lain yang lebih senior untuk memahami konteks bisnis dari sistem booking online yang sedang dikembangkan, serta kebutuhan teknis dan fungsional yang harus dipenuhi dengan mengintegrasikan library baru ini.
+Membuat Rencana Implementasi: Berdasarkan pemahaman saya terhadap dokumentasi library dan kebutuhan proyek, saya akan merencanakan langkah-langkah implementasi. Ini termasuk penjadwalan waktu untuk mempelajari library, mengintegrasikan kode, dan melakukan pengujian.
+
+
+
+B. Jika di tengah pengerjaan saya mengalami kesulitan dalam mengintegrasikan 3rd party library dan merasa tidak yakin bisa menyelesaikannya tepat waktu, saya akan melakukan langkah-langkah berikut untuk menginformasikan kepada tim:
+Identifikasi Masalah Secara Spesifik: Saya akan mengidentifikasi dengan jelas modul mana dalam proyek yang perlu dimodifikasi untuk mendukung integrasi dengan library baru.
+Komunikasi dengan Tim: Saya akan mengirimkan pesan kepada Tech Lead dan Project Manager melalui saluran komunikasi yang biasa digunakan (misalnya e mail atau platform komunikasi tim). Pesan tersebut akan mencakup:
+Deskripsi Masalah: Saya akan menjelaskan dengan rinci mengenai kendala yang saya hadapi dalam integrasi dan mengapa modifikasi modul existing diperlukan.
+Dampak terhadap Deadline: Saya akan memberi tahu bahwa ada kemungkinan penundaan dalam penyelesaian challenge sesuai deadline yang ditetapkan.
+Permintaan Bantuan atau Solusi: Saya akan meminta masukan atau solusi dari Tech Lead atau anggota senior tim yang mungkin memiliki pengalaman lebih dalam terkait integrasi atau modifikasi yang diperlukan.
+Diskusi dan Kesepakatan: Setelah mengirim pesan, saya akan siap untuk melakukan diskusi lebih lanjut jika diperlukan untuk menentukan tindakan selanjutnya. Ini mungkin melibatkan perubahan rencana atau penyesuaian milestone proyek.
+
+Dengan cara ini, saya berharap dapat mengatasi masalah dengan efisien sambil tetap menjaga transparansi dan kolaborasi dengan tim proyek.

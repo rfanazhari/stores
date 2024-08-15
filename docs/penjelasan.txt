@@ -1,0 +1,48 @@
+○ Jelaskan alasan mengapa memilih menggunakan NestJs version 10 or above?
+Menggunakan NestJS versi 10 memberikan beberapa kelebihan dan keuntungan yang signifikan, termasuk:
+Peningkatan Performa:
+Versi terbaru biasanya mencakup berbagai optimasi dan perbaikan computer virus yang meningkatkan performa aplikasi secara keseluruhan.
+Fitur Baru:
+Versi 10.0.0 mungkin memperkenalkan fitur-fitur baru yang tidak tersedia di versi sebelumnya, seperti dukungan untuk teknologi terbaru, peningkatan fleksibilitas arsitektur, dan API yang lebih kaya.
+Keamanan:
+Setiap versi baru biasanya datang dengan patch keamanan terbaru yang melindungi aplikasi dari kerentanan yang ditemukan di versi sebelumnya.
+Kompatibilitas dengan Dependencies:
+Versi terbaru biasanya lebih kompatibel dengan versi terbaru dari dependencies lainnya, seperti TypeORM, GraphQL, atau library lainnya yang sering digunakan bersama NestJS.
+Dokumentasi dan Komunitas:
+Versi terbaru biasanya memiliki dokumentasi yang lebih lengkap dan up to date, serta dukungan yang lebih baik dari komunitas.
+Pengalaman Pengguna yang Lebih Baik:
+Dengan adanya fitur dan perbaikan baru, pengembangan dengan NestJS versi terbaru bisa lebih efisien dan menyenangkan.
+Dukungan Jangka Panjang:
+Biasanya, versi terbaru dari sebuah framework akan mendapatkan dukungan lebih lama dibandingkan dengan versi yang lebih lama.
+Secara keseluruhan, menggunakan NestJS versi terbaru seperti 10 membantu memastikan bahwa aplikasi Saya memanfaatkan teknologi terbaru dan tetap aman, performa yang most suitable, dan mendapatkan dukungan penuh dari komunitas dan pengembang NestJS.
+
+○ Jelaskan mengenai arsitektur aplikasi yang sudah dibuat?
+Arsitektur aplikasi yang Saya buat dapat dijelaskan sebagai berikut:
+
+ORM (Object-Relational Mapping): Saya menggunakan TypeORM sebagai library ORM untuk mempermudah interaksi dengan database. Dengan TypeORM, Saya dapat membuat, membaca, memperbarui, dan menghapus records dalam database dengan lebih mudah dan efisien.
+Pemodelan dan Domain:
+Models (Entity): Entity dalam TypeORM adalah representasi tabel dalam database. Saya memisahkan entitas-entitas ini dari bagian lain dalam aplikasi untuk menjaga struktur kode yang bersih dan terorganisir.
+Domain: Domain adalah lapisan yang mengandung logika bisnis dan aturan aplikasi. Dengan memisahkan area dari models, Saya memastikan bahwa logika bisnis terpisah dari element implementasi database.
+Mapper: Mapper digunakan untuk mentranslasi information antara fashions (entity) dan area. Ini memastikan bahwa perubahan dalam domain atau models tidak secara langsung mempengaruhi satu sama lain, yang meningkatkan modularitas dan maintainability aplikasi.
+Keamanan:
+Guards untuk Roles dan Token: Saya menggunakan guards standar untuk mengelola otorisasi berdasarkan peran (roles) dan token. Guards ini memastikan bahwa hanya pengguna yang berwenang yang dapat mengakses bagian-bagian tertentu dari aplikasi, berdasarkan peran mereka dan validitas token mereka.
+Dengan arsitektur ini, Saya dapat menjaga pemisahan tanggung jawab yang jelas, membuat kode lebih mudah untuk dipelihara, dan memastikan bahwa aplikasi tetap aman.
+
+○ Jelaskan alasan mengapa memilih MySQL atau PostgreSQL?
+Ada beberapa alasan mengapa memilih PostgreSQL sebagai database:
+Kompatibilitas dan Standar SQL:
+PostgreSQL sangat kompatibel dengan standar SQL dan menyediakan dukungan yang kuat untuk fitur-fitur SQL yang lebih canggih. Hal ini memudahkan pengembangan aplikasi yang membutuhkan query kompleks dan pengelolaan information yang canggih.
+Kinerja dan Skalabilitas:
+PostgreSQL dikenal karena kinerja yang baik dalam menangani extent information yang besar dan beban kerja yang berat. Ini juga mendukung replikasi dan sharding, yang memungkinkan skalabilitas horizontal.
+Keandalan dan Konsistensi Data:
+PostgreSQL menyediakan fitur-fitur seperti ACID (Atomicity, Consistency, Isolation, Durability) yang memastikan integritas dan konsistensi facts, menjadikannya pilihan yang baik untuk aplikasi yang membutuhkan keandalan tinggi.
+Ekstensibilitas:
+PostgreSQL sangat mudah diperluas dengan dukungan untuk berbagai macam ekstensi, seperti PostGIS untuk statistics geografis dan citus untuk distribusi data. Anda juga dapat membuat fungsi kustom menggunakan berbagai bahasa pemrograman.
+Keamanan:
+PostgreSQL menawarkan fitur keamanan tingkat lanjut seperti kontrol akses berbasis peran (Role-Based Access Control), enkripsi records, dan autentikasi kuat. Ini menjadikannya pilihan yang aman untuk aplikasi yang membutuhkan proteksi records yang ketat.
+
+○ jelaskan DB optimization yang dilakukan (jika dilakukan)
+Saya mengimplementasikan Optimasi Query Builder untuk memunculkan list data Gifts. Sehingga proses eksekusi datanya lebih cepat
+
+○ Jelaskan alasan mengapa memilih layanan cloud computing platform (jika dilakukan) ?
+Saya menggunakan Heroku (harga terjangkau), AWS(implementasinya banyak, bisa menggunakan VM=EC2 atau melalui Deployment, harga agak mahal),
